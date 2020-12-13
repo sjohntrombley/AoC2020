@@ -22,7 +22,6 @@ moveBoat ((x, y), (dx, dy)) (c, n)
                            270 -> ((x, y), (dy, -dx))
 
 part2 = print.uncurry ((.abs).(+).abs).fst.foldl' moveBoat2 ((0, 0), (10, 1)) 
---part2 = print.scanl moveBoat2 ((0, 0), (10, 1)) 
 
 moveBoat2 ((x, y), (wx, wy)) (c, n)
     = case c of
