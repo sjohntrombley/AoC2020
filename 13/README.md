@@ -1,4 +1,4 @@
-#Day 13
+# Day 13
 
 You're trying to catch a bus. There's a timestamp that increments continuiously. Busses have an ID such that the bus arrives at your stop when `mod t id == 0` where `t` is the timestamp. The input has two lines. The first line is an integer, the second line is a list of busses, separated by commas, where each bus is either an integer bus ID or `x`.
 
